@@ -1,4 +1,5 @@
 #Task 1
+from jupyterlab.semver import satisfies
 
 num1 = float(input('Enter the first number:'))
 num2 = float(input('Enter the second number:'))
@@ -14,3 +15,8 @@ git init
 
 git pull origin main
 git status
+
+git add .
+git status
+git commit -m "Commit Message"
+git push
